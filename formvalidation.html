@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validation Using Javascript</title>
+    <link rel="stylesheet" href="formvalidation.css">
+</head>
+
+<body>
+    <h1>CREATE YOUR ACCOUNT</h1>
+    <br><br  >
+    <form id="form-validate">
+        <div class="form-group">
+            <label for="">USER NAME</label>
+            <input id="username" type="text">
+            <span id="username-error"></span>
+        </div>
+        <div class="form-group">
+            <label for="">EMAIL</label>
+            <input id="email" type="email">
+            <span id="email-error"></span>
+        </div>
+        <div class="form-group">
+            <label for="">PASSWORD</label>
+            <input id="password" type="password">
+            <span id="password-error"></span>
+        </div>
+        <div class="form-group">
+            <label for="">CONFIRM PASSWORD</label>
+            <input id="confirmpassword" type="password">
+            <span id="confirmpassword-error"></span>
+        </div>
+        <button type="submit"> SUBMIT </button>
+    </form>
+    <script src="formvalidation.js"></script>
+</body>
+
+</html>
